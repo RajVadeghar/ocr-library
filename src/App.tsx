@@ -18,7 +18,15 @@ const App: React.FC = () => {
   });
 
   return (
-    <div className="bg-gray-900 min-h-screen text-white flex items-center py-28 flex-col gap-2">
+    <div className="bg-slate-900 min-h-screen text-white flex items-center py-28 flex-col gap-2 relative">
+      <div className="absolute inset-x-0 top-0">
+        <img
+          src="/ocr-without-bg.png"
+          alt=""
+          className="mx-auto sm:mr-auto sm:ml-0 h-32 w-32"
+        />
+      </div>
+
       <input
         className="cursor-pointer text-sm text-slate-500
         file:mr-4 file:py-2 file:px-4
